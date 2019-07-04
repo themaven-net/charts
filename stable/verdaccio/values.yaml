@@ -1,6 +1,6 @@
 image:
   repository: verdaccio/verdaccio
-  tag: 3.11.6
+  tag: 4.0.4
   pullPolicy: IfNotPresent
 
 service:
