@@ -59,6 +59,9 @@ configMap: |
   # Look here for more config file examples:
   # https://github.com/verdaccio/verdaccio/tree/master/conf
   #
+  
+  # Custom maven
+  max_body_size: 1000mb
 
   # path to a directory with all packages
   storage: /verdaccio/storage/data
