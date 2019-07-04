@@ -13,9 +13,9 @@ service:
   externalIPs: []
 
   loadBalancerIP: ""
-  loadBalancerSourceRanges: []
-  port: 4873
-  type: ClusterIP
+  loadBalancerSourceRanges: ['216.243.53.58/32']
+  port: 80
+  type: LoadBalancer
   # nodePort: 31873
 
 ## Node labels for pod assignment
